@@ -10,4 +10,4 @@
 // You will have time to focus on it later.
 
 var hello = "Hello, world";
-alert("Hello, world"));
+alert("Hello, world");

@@ -14,3 +14,22 @@
     // your code here
 
 })();
+
+
+
+function FizzBuzz(){ 
+    for(let y = 0 ; y <= 20 ; y++) 
+    {
+         if(y % 5 === 0)
+               console.log('Buzz');
+    
+         else if(y % 3 === 0)
+                console.log('Fizz');
+    
+         else if(y % 3===0 && y % 5===0)
+               console.log('FizzBuzz') ;
+         else console.log('ni divisible par 3, ni divisible pare 5');
+           }
+    }
+   FizzBuzz();
+   

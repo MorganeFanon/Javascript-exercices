@@ -10,4 +10,4 @@
 // You will have time to focus on it later.
 
 var name =prompt("Quel est votre prénom ?")
-alert('bienvenue' + 'name');
+alert('bienvenue  ' + 'name');
