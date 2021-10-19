@@ -8,7 +8,7 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
-
-(() => {
-    // your code here
-})();
+function afficher() {
+    var utiliser = document.getElementById("color").value;
+    document.style.backgroundColor = "color";
+}

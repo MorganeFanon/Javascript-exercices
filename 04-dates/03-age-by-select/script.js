@@ -12,3 +12,6 @@
 (() => {
     // your code here
 })();
+function myFunction() {
+    alert()
+}

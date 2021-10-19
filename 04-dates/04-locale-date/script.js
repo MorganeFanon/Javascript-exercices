@@ -13,3 +13,9 @@
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
     // your code here
 })();
+function myFunction() {
+    var today = new Date();
+    document.getElementById("target").innerHTML = today;
+    alert(today);
+   
+}

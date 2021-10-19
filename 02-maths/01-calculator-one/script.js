@@ -12,39 +12,26 @@
 (() => {
     // to get the value of an input: document.getElementById("element-id").value
 
-document.getElementById("addition").addEventListener("click",function () {
-    var opOne = document.getElementById("op-one").value;
-    var opTwo  = document.getElementById("op-two").value;
-    var addition = document.getElementById("addition").value;
-    addition.value = "op-one" + "op-two";
-    alert("the sum of a and b is " + addition);
-});
-
-
-document.getElementById("substraction").addEventListener("click",function () {
+function calculate() {
     var a = document.getElementById("op-one").value;
     var b  = document.getElementById("op-two").value;
-    var substraction = document.getElementById("substraction").value;
-    substraction.value = a - b;
-    alert("the substraction of b from a is" + substraction);
-});
 
-
-
-document.getElementById("multiplication").addEventListener("click",function () { 
-    var a = document.getElementById("op-one").value;
-    var b  = document.getElementById("op-two").value;
-    var multiplication = document.getElementById("multiplication").value;
-    multiplication.value = a * b;
-    alert("the multiplication of a and b is" + multiplication);
-});
-
-
-
-document.getElementById("division").addEventListener("click",function () {
-      var a = document.getElementById("op-one").value;
-      var b  = document.getElementById("op-two").value;
-      var division = document.getElementById("division").value;
-      division.value = a / b;
-      alert("the division of a by b is" + division);
-  });
+    if(document.getElementById("addition"){ 
+         var addition = a + b;
+         alert("la somme de a et de b est de" + addition);
+    }
+    else if(document.getElementById("substraction"){ 
+        var substraction = a - b;
+        alert("la différence entre a et b est de" + substraction);
+    }
+    else if(document.getElementById("mulitplication"){ 
+        var multiplication = a * b;
+        alert("le produit de a et de b est de" + multiplication);
+    }
+    else if(document.getElementById("division"){ 
+        var division = a * b;
+        alert("la division de a par b est de " + division);
+    }    
+    });
+    
+ 
